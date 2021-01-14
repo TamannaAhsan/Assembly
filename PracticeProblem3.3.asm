@@ -38,6 +38,7 @@ main proc
     exit:
     
     mov al,bl
+    mov ah,0
     
     call print_num
       
